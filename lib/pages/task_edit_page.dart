@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hive/hive.dart';
 import '../bloc/task_bloc.dart';
 import '../bloc/task_event.dart';
 import '../models/task_model.dart';
@@ -100,7 +101,8 @@ class _TaskFormPageState extends State<TaskFormPage> {
                       isDone: widget.task?.isDone ?? false,
                     );
                     if (widget.task != null) {
-                      task.save();
+                      final box = Hive.box<Task>('tasks');
+                      box.put(widget.task!.key, task);
                       context.read<TaskBloc>().add(UpdateTaskEvent(task));
                     } else {
                       context.read<TaskBloc>().add(AddTaskEvent(task));
