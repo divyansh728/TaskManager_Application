@@ -21,7 +21,9 @@ A simple Task Manager app built using Flutter, Bloc for state management, and Hi
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/task_manager_flutter.git
+
+with this Url of GitHub:-
+https://github.com/divyansh728/TaskManager_Application.git
 cd task_manager_flutter
 
 
