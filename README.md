@@ -24,7 +24,6 @@ A simple Task Manager app built using Flutter, Bloc for state management, and Hi
 
 with this Url of GitHub:-
 https://github.com/divyansh728/TaskManager_Application.git
-cd task_manager_flutter
 
 
 ### 2. Install dependencies
@@ -36,6 +35,13 @@ flutter pub get
 
 Ensure the Task model has a @HiveType annotation and run:
 flutter packages pub run build_runner build
+
+### 4. 🌙  Theme Toggle
+Click the sun/moon icon in the top-right corner to toggle between light and dark themes. 
+
+
+
+###  Some Screenshots of this Applictain
 
 
 <img width="297" alt="Screenshot 2025-06-11 at 10 34 32 PM" src="https://github.com/user-attachments/assets/05573e68-4150-4bf4-8a9d-191228ce8ef1" />
