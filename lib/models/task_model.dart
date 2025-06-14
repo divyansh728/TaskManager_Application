@@ -2,7 +2,7 @@ import 'package:hive/hive.dart';
 part 'task_model.g.dart';
 
 
-// This tells Hive to generate this file
+
 
 @HiveType(typeId: 0)
 class Task extends HiveObject {

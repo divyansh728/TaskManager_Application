@@ -2,9 +2,7 @@
 
 part of 'task_model.dart';
 
-// **************************************************************************
-// TypeAdapterGenerator
-// **************************************************************************
+
 
 class TaskAdapter extends TypeAdapter<Task> {
   @override

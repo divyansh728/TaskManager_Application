@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.dark(primary: Colors.deepPurple),
               appBarTheme: AppBarTheme(backgroundColor: Colors.deepPurple[700]),
             ),
-            themeMode: themeMode, // <- This enables theme switching
+            themeMode: themeMode,
             home: HomePage(),
           );
         },
